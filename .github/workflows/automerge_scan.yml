@@ -6,7 +6,7 @@ on:
 
 jobs:
   automerge_scan:
-    if: github.repository_owner == 'sonic-net'
+    if: github.repository_owner == 'athaarnaqvi'
     runs-on: ubuntu-latest
     steps:
     - name: Debug
