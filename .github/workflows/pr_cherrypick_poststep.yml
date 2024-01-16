@@ -5,6 +5,8 @@ on:
       - closed
     branches:
       - '20*'
+      - 'master'
+      - 'testingworkflows'
 
 jobs:
   post_cherry_pick:
